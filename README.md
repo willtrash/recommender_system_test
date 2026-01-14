@@ -5,7 +5,7 @@ Avaliar se a introdução de um sistema de recomendação melhorado (grupo B) au
 
 ---
 
-## Resumo técnico do teste A/B
+## O teste A/B
 - **Nome:** recommender_system_test  
 - **Período de campanha:** 07-12-2020 a 01-01-2021 (parada de captação de novos usuários: 21-12-2020)  
 - **Público:** 15% de novos usuários da região UE  
@@ -40,29 +40,10 @@ Avaliar se a introdução de um sistema de recomendação melhorado (grupo B) au
 
 ---
 
-## Checklist de EDA (usado no notebook)
-- [ ] Converter colunas de data para `datetime`  
-- [ ] Filtrar usuários da região UE e na janela do experimento  
-- [ ] Remover/justificar duplicatas e eventos inválidos  
-- [ ] Confirmar que ambos os grupos (A e B) possuem usuários suficientes e presentes na janela de observação  
-- [ ] Verificar distribuição de eventos por dia (detectar drift ou perda de instrumentação)  
-- [ ] Calcular taxas de conversão para cada etapa do funil por grupo e por subperíodos
+## O que você encontra no repositório
 
----
+- recommender_system_test.ipynb — Notebook com todo o pipeline: carregamento, EDA, pré-processamento, agregações, testes estatísticos, visualizações e conclusões.
 
-## Exemplo de como executar o z-test (trecho de código)
-> Observação: o notebook contém o código completo. Aqui um snippet ilustrativo (Python — `statsmodels`).
+- README.md — este arquivo.
 
-```py
-# Supondo que você já agregou os dados e tem:
-# successes_A = número de usuários em A que converteram em X
-# nobs_A = número total de usuários em A
-# successes_B, nobs_B = equivalente para B
-
-from statsmodels.stats.proportion import proportions_ztest
-
-counts = [successes_B, successes_A]   # ordem: grupo B, grupo A
-nobs = [nobs_B, nobs_A]
-stat, pvalue = proportions_ztest(counts, nobs, alternative='larger')  # 'larger' se testamos B > A
-
-print(f"z = {stat:.3f}, p-value = {pvalue:.4f}")
+> O notebook contém gráficos e tabelas com as conversões por etapa, resultados do z-test e recomendações práticas.
