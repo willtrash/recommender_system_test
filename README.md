@@ -64,7 +64,7 @@ Avaliar se a introdução de um sistema de recomendação melhorado (grupo B) au
 
 ---
 
-## Conclusões
+## Conclusão
 
 - Embora exista diferença estatisticamente significativa entre os grupos na métrica de **purchase**, o efeito observado **não aponta para o benefício esperado do novo sistema de recomendação** (meta definida: ≥ +10% em cada etapa do funil). Na verdade, a taxa de compra do grupo B ficou **menor** (~−5% relativo a A). 
 
