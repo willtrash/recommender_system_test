@@ -1,11 +1,11 @@
 # Recommender System Test — Análise de Teste A/B de Sistema de Recomendação
 
-**Descrição curta**  
+**Descrição**  
 Projeto de análise de um teste A/B (recommender_system_test) que avaliou a introdução de um sistema de recomendação melhorado. O objetivo foi verificar se o novo modelo (grupo B — funil de novos pagamentos) gerou aumento de pelo menos **10%** nas conversões ao longo do funil `product_page → product_cart → purchase`, dentro de **14 dias** após o cadastro, em uma amostra de novos usuários da UE.
 
 ---
 
-## Objetivo (versão enxuta e impactante)
+## Objetivo
 Avaliar se a introdução de um sistema de recomendação melhorado (grupo B) aumentou as taxas de conversão em até 14 dias após o cadastro — para visualizações de produto, adições ao carrinho e compras — em comparação ao modelo atual (grupo A). O critério de sucesso definido foi um aumento mínimo de **10%** em cada etapa do funil, com significância estatística avaliada por testes de proporção (z-test).
 
 ---
