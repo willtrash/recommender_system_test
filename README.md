@@ -70,6 +70,13 @@ Avaliar se a introdução de um sistema de recomendação melhorado (grupo B) au
 
 ---
 
+## Linguagens e bibliotecas
+
+Linguagem: Python
+Bibliotecas: pandas, matplotlib, seaborn, proportions_ztest
+
+---
+
 ## Contato
 
 Willian De Souza Pereira — ws13292@gmail.com
