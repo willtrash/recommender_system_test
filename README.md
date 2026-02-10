@@ -81,6 +81,8 @@ Avaliar se a introdução de um sistema de recomendação melhorado (grupo B) au
 
 Willian De Souza Pereira — ws13292@gmail.com
 
+LinkedIn: https://linkedin.com/in/willian-de-souza-pereira-b69109202
+
 GitHub: https://github.com/willtrash
 
 ---
